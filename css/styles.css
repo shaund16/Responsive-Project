@@ -1,0 +1,354 @@
+/*  Base Layout */
+
+* {
+  text-align: center;
+}
+
+body{
+background-color: #f5f5f5;
+}
+
+
+ul {
+  list-style-type: none;
+  color: black;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  color: black;
+}
+
+h1,
+.footer-name {
+  font-family: 'Balsamiq Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'MuseoModerno', sans-serif;
+}
+
+h2,
+.nav-link,
+.foot-nav-link,
+.small {
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+#portfolio{
+  background-color: white;
+}
+
+.skill-image{
+  max-width: 40%;
+}
+
+/* Media Queries */
+
+/*  Phone  */
+@media (min-width: 320px) {
+
+  h1{
+    padding-top: 10px;
+  }
+img{
+  max-width: 80%;
+  padding-top: 5px;
+}
+
+.nav-link {
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h2{
+  padding: 40px;
+  font-size: 1.1em;
+ margin-top: 20px;
+}
+
+.p-description{
+  text-align: center;
+  padding: 10px;
+  line-height: 1.4em;
+}
+  .p-picture {
+    max-width: 92%;
+    padding-top: 15px;
+  }
+  
+  #portfolio {
+    padding-bottom: 50px;
+  }
+   .paragraph{
+     padding: 0 30px;
+     font-size: 1em;
+   }
+    .skills {
+      padding-top: 30px;
+    }
+   .skill-image{
+     max-width: 40%;
+   }
+   .contact-name {
+     padding: 25px;
+
+   }
+   .contact-info {
+     padding: 20px;
+   }
+   .phone{
+     padding-bottom: 10px;
+     font-size: 1.0em;    
+   }
+
+   .email{
+     font-size: 1.0em;
+   }
+  .foot-nav-link{
+    display: none;
+  }
+   
+  .footer-name {
+    display: inline-block;
+    float: left;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .small {
+    vertical-align: baseline;
+    padding-top: 20px;
+    font-size: .8em;
+    text-align: right;
+    padding-right: 10px;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+/*  Tablet */
+
+@media (min-width: 768px) {
+
+.name{
+  padding-top: 50px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.top-image {
+  float: right;
+  padding-top: 20px;
+  width: 45%;
+  margin-right: 10px;
+  padding-bottom: 40px;
+}
+
+.p-description {
+  padding-top: 25px;
+  padding-left: 10px;
+  text-align: left;
+  max-width: 50%;
+  font-size: 1em;
+}
+
+.primary-col,
+.secondary-col,
+.terciary-col {
+  min-height: 425px;
+}
+
+.main-marketing-section {
+  max-width: 50%;
+  display: inline-block;
+ 
+}
+
+.main-search-section {
+  width: 50%;
+  float: right;
+}
+
+
+.col-2 {
+  padding-top: 13px;
+}
+
+.main-travel-section{
+max-width: 50%;
+display: inline-block;
+
+}
+.main-map-favorites{
+max-width: 50%;
+float: right;
+
+}
+.col-3 {
+  padding-top: 10px;
+}
+.main-photo-gallery{
+  max-width: 50%;
+  display: inline-block;
+}
+
+.main-calculator{
+  max-width: 50%;
+  float: right;
+}
+
+.skills {
+  padding-top: 60px;
+  font-size: 1.6em;
+}
+
+.skill-image{
+  max-width: 40%;
+}
+.contact-p {
+  margin: 0 120px;
+}
+
+.phone,
+.email {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.small{
+  display:none;
+}
+
+.footer-name{
+  display: inline-block;
+}
+
+.foot-nav-link {
+display: inline-block;
+ padding-top: 15px;
+ padding-left: 30px;
+ color: black;
+ padding-bottom: 50px;
+}
+
+.footer-ul {
+text-align: right;
+padding-right: 12px;
+
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+  .main-header {
+    max-width: 100%;
+  }
+
+
+.name {
+float: left;
+margin-left: 40px;
+padding-top: 0;
+}
+
+.top-title{
+  padding-top: 40px;
+}
+.nav-list ul {
+  text-align: right;
+}
+
+.top-image {
+  max-width: 50%;
+  padding: 10px 40px 50px;
+ 
+}
+
+.p-description {
+  padding: 10px 45px;
+  
+}
+
+
+/* Portfolio */
+
+
+.main-container{
+  width: 100%;
+}
+
+.primary-col {
+  float: left;
+  width: 33%;
+  padding-left: 10px;
+}
+
+.secondary-col {
+  float: left;
+  width: 33%;
+} 
+
+.terciary-col{
+ float: right;
+ width: 33%;
+}
+
+.terciary-col,
+.p-picture {
+  padding-top: 2px;
+}
+
+.skills{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.skill-image{
+  max-width: 40%;
+
+}
+
+.contact-name{
+  font-size: 1.5em;
+}
+
+.contact-p{
+  font-size: 1.2em;
+  padding: 0 15%;
+}
+
+.foot-nav-link {
+  font-size: 1.1em;
+}
+
+a:visited{
+  color: black;
+}
+
+}
